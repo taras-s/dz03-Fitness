@@ -1,0 +1,136 @@
+
+* {margin:0; padding:0; 
+	/*border: 1px solid #AAA;*/
+}
+body { line-height: 1.4; font-size: 90%; }
+a, img, div, header { display: block; }
+
+.base{
+	width: 1060px; 
+	height: 936px; 
+	padding: 50px;
+	margin: auto;
+}
+
+header{	margin: 0px; height: 80px; }
+
+
+/* ================================ MENU */
+
+.menubar {
+	display: block;
+	list-style: none;
+	/*background-color: #666;*/
+	background: -webkit-linear-gradient(#777, #444);
+	background: -o-linear-gradient(#777, #444);
+	background: linear-gradient(#777, #444);
+}
+
+.mbar-li {
+	display: inline-block;
+}
+
+.mbar-a {
+	display: block;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.mbar-a:hover {
+	background-color: #444;
+	padding: 8px 19px;
+	border-right: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+}
+
+
+/* ============================== sidebar */
+
+.container {
+	display: block;
+	padding-top: 30px;
+}
+
+/*.embed{	position: absolute; }*/
+
+.sidebar {
+	display: inline-block;
+    list-style-type: none;
+    width: 240px;
+    background-color: #FFF;
+}
+
+.sbar-li {
+    display: block;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    text-decoration: none;
+}
+
+li.sbar-li:last-child{ border-bottom: 1px solid #CCC; }
+
+.sbar-a {
+	display: block;
+	padding: 7px 30px;
+	text-decoration: none;
+	color: #555;
+}
+
+.sbar-a-act {
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+.sbar-a:hover {
+    background-color: #CCC;
+    color: #333;
+}
+
+/* ======================================== image-text */
+
+.contents {
+	display: inline-block;
+	width: 730px;
+	padding-left: 45px;
+}
+
+img.goods {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textblock {
+	display: inline-block;
+	padding: 30px;
+}
+
+/* ======================================= FOOTER */
+
+.footr {
+	display: block;
+	list-style: none;
+	background-color: #CCC;
+}
+
+.foot-li {
+	display: inline-block;
+}
+
+.foot-a {
+	display: block;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #444;
+}
+
+.foot-a:hover {color: #000;}
+
+/*
+Sequence of style parameters:
+1st:	BlockModel items (margin, padding, display, block, position[absolute, relative], height, width..)
+2nd:	background, color
+3rd:	decoration
+*/
