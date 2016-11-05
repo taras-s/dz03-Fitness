@@ -2,14 +2,20 @@
 * {margin:0; padding:0; 
 	/*border: 1px solid #AAA;*/
 }
-body { line-height: 1.4; font-size: 90%; }
+body { 
+	line-height: 1.4;
+	font-size: 90%;
+	background-color: #eee;
+}
+
 a, img, div, header { display: block; }
 
 .base{
 	width: 1060px; 
-	height: 936px; 
 	padding: 50px;
 	margin: auto;
+	background-color: #fff;
+	box-shadow: 0px 3px 4px #999;
 }
 
 header{	margin: 0px; height: 80px; }
@@ -56,6 +62,7 @@ header{	margin: 0px; height: 80px; }
 
 .sidebar {
 	display: inline-block;
+	vertical-align: top;
     list-style-type: none;
     width: 240px;
     background-color: #FFF;
@@ -90,14 +97,21 @@ li.sbar-li:last-child{ border-bottom: 1px solid #CCC; }
 
 /* ======================================== image-text */
 
-.contents {
+div.contents {
 	display: inline-block;
 	width: 730px;
 	padding-left: 45px;
 }
 
+div.pict-border {
+	border: 1pt solid #ccc;
+	height: 400px;
+}
+
 img.goods {
     display: block;
+    position: relative;
+    top:30px;
     margin-left: auto;
     margin-right: auto;
 }
